@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F949BE32190A7ED200CC5748 /* CEMesaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F949BE31190A7ED200CC5748 /* CEMesaViewController.m */; };
+		F949BE35190A831200CC5748 /* CEEstanteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F949BE34190A831200CC5748 /* CEEstanteViewController.m */; };
+		F949BE38190A85C300CC5748 /* CECamaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F949BE37190A85C300CC5748 /* CECamaViewController.m */; };
+		F949BE3B190A882600CC5748 /* CEEstoqueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F949BE3A190A882600CC5748 /* CEEstoqueViewController.m */; };
 		F9C404AA1902A7DD00520B7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C404A91902A7DD00520B7E /* Foundation.framework */; };
 		F9C404AC1902A7DD00520B7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C404AB1902A7DD00520B7E /* CoreGraphics.framework */; };
 		F9C404AE1902A7DD00520B7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C404AD1902A7DD00520B7E /* UIKit.framework */; };
@@ -21,6 +25,14 @@
 		F9C404CB1902A7DD00520B7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C404AD1902A7DD00520B7E /* UIKit.framework */; };
 		F9C404D31902A7DD00520B7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9C404D11902A7DD00520B7E /* InfoPlist.strings */; };
 		F9C404D51902A7DD00520B7E /* Controle_EstoqueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C404D41902A7DD00520B7E /* Controle_EstoqueTests.m */; };
+		F9C404E01902B18400520B7E /* CEEstoque.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C404DF1902B18400520B7E /* CEEstoque.m */; };
+		F9C404E31902C1E500520B7E /* CECadeira.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C404E21902C1E500520B7E /* CECadeira.m */; };
+		F9E376A61909374C00E7EC42 /* CECama.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E376A51909374C00E7EC42 /* CECama.m */; };
+		F9E376A91909466B00E7EC42 /* CEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E376A81909466B00E7EC42 /* CEMainViewController.m */; };
+		F9E376AC1909562200E7EC42 /* CECadeiraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E376AB1909562200E7EC42 /* CECadeiraViewController.m */; };
+		F9E7E8D3190680DB005B47EE /* CEMesa.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E7E8D2190680DB005B47EE /* CEMesa.m */; };
+		F9E7E8DC190698FA005B47EE /* CEProduto.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E7E8DB190698FA005B47EE /* CEProduto.m */; };
+		F9E7E8E519069D15005B47EE /* CEEstante.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E7E8E419069D15005B47EE /* CEEstante.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F949BE30190A7ED200CC5748 /* CEMesaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMesaViewController.h; sourceTree = "<group>"; };
+		F949BE31190A7ED200CC5748 /* CEMesaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMesaViewController.m; sourceTree = "<group>"; };
+		F949BE33190A831200CC5748 /* CEEstanteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEEstanteViewController.h; sourceTree = "<group>"; };
+		F949BE34190A831200CC5748 /* CEEstanteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEEstanteViewController.m; sourceTree = "<group>"; };
+		F949BE36190A85C300CC5748 /* CECamaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECamaViewController.h; sourceTree = "<group>"; };
+		F949BE37190A85C300CC5748 /* CECamaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECamaViewController.m; sourceTree = "<group>"; };
+		F949BE39190A882600CC5748 /* CEEstoqueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEEstoqueViewController.h; sourceTree = "<group>"; };
+		F949BE3A190A882600CC5748 /* CEEstoqueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEEstoqueViewController.m; sourceTree = "<group>"; };
 		F9C404A61902A7DD00520B7E /* Controle Estoque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Controle Estoque.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C404A91902A7DD00520B7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9C404AB1902A7DD00520B7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +73,22 @@
 		F9C404D01902A7DD00520B7E /* Controle EstoqueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Controle EstoqueTests-Info.plist"; sourceTree = "<group>"; };
 		F9C404D21902A7DD00520B7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9C404D41902A7DD00520B7E /* Controle_EstoqueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controle_EstoqueTests.m; sourceTree = "<group>"; };
+		F9C404DE1902B18400520B7E /* CEEstoque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEEstoque.h; sourceTree = "<group>"; };
+		F9C404DF1902B18400520B7E /* CEEstoque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEEstoque.m; sourceTree = "<group>"; };
+		F9C404E11902C1E500520B7E /* CECadeira.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECadeira.h; sourceTree = "<group>"; };
+		F9C404E21902C1E500520B7E /* CECadeira.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECadeira.m; sourceTree = "<group>"; };
+		F9E376A41909374C00E7EC42 /* CECama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECama.h; sourceTree = "<group>"; };
+		F9E376A51909374C00E7EC42 /* CECama.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECama.m; sourceTree = "<group>"; };
+		F9E376A71909466B00E7EC42 /* CEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMainViewController.h; sourceTree = "<group>"; };
+		F9E376A81909466B00E7EC42 /* CEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMainViewController.m; sourceTree = "<group>"; };
+		F9E376AA1909562200E7EC42 /* CECadeiraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CECadeiraViewController.h; path = ../CECadeiraViewController.h; sourceTree = "<group>"; };
+		F9E376AB1909562200E7EC42 /* CECadeiraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CECadeiraViewController.m; path = ../CECadeiraViewController.m; sourceTree = "<group>"; };
+		F9E7E8D1190680DB005B47EE /* CEMesa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMesa.h; sourceTree = "<group>"; };
+		F9E7E8D2190680DB005B47EE /* CEMesa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMesa.m; sourceTree = "<group>"; };
+		F9E7E8DA190698FA005B47EE /* CEProduto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEProduto.h; sourceTree = "<group>"; };
+		F9E7E8DB190698FA005B47EE /* CEProduto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEProduto.m; sourceTree = "<group>"; };
+		F9E7E8E319069D15005B47EE /* CEEstante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEEstante.h; sourceTree = "<group>"; };
+		F9E7E8E419069D15005B47EE /* CEEstante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEEstante.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +155,30 @@
 				F9C404BF1902A7DD00520B7E /* CEViewController.m */,
 				F9C404C11902A7DD00520B7E /* Images.xcassets */,
 				F9C404B01902A7DD00520B7E /* Supporting Files */,
+				F9C404DE1902B18400520B7E /* CEEstoque.h */,
+				F9C404DF1902B18400520B7E /* CEEstoque.m */,
+				F9C404E11902C1E500520B7E /* CECadeira.h */,
+				F9C404E21902C1E500520B7E /* CECadeira.m */,
+				F9E7E8D1190680DB005B47EE /* CEMesa.h */,
+				F9E7E8D2190680DB005B47EE /* CEMesa.m */,
+				F9E7E8DA190698FA005B47EE /* CEProduto.h */,
+				F9E7E8DB190698FA005B47EE /* CEProduto.m */,
+				F9E7E8E319069D15005B47EE /* CEEstante.h */,
+				F9E7E8E419069D15005B47EE /* CEEstante.m */,
+				F9E376A41909374C00E7EC42 /* CECama.h */,
+				F9E376A51909374C00E7EC42 /* CECama.m */,
+				F9E376A71909466B00E7EC42 /* CEMainViewController.h */,
+				F9E376A81909466B00E7EC42 /* CEMainViewController.m */,
+				F9E376AA1909562200E7EC42 /* CECadeiraViewController.h */,
+				F9E376AB1909562200E7EC42 /* CECadeiraViewController.m */,
+				F949BE30190A7ED200CC5748 /* CEMesaViewController.h */,
+				F949BE31190A7ED200CC5748 /* CEMesaViewController.m */,
+				F949BE33190A831200CC5748 /* CEEstanteViewController.h */,
+				F949BE34190A831200CC5748 /* CEEstanteViewController.m */,
+				F949BE36190A85C300CC5748 /* CECamaViewController.h */,
+				F949BE37190A85C300CC5748 /* CECamaViewController.m */,
+				F949BE39190A882600CC5748 /* CEEstoqueViewController.h */,
+				F949BE3A190A882600CC5748 /* CEEstoqueViewController.m */,
 			);
 			path = "Controle Estoque";
 			sourceTree = "<group>";
@@ -200,6 +260,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = its4company;
 				TargetAttributes = {
+					F9C404A51902A7DD00520B7E = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
 					F9C404C61902A7DD00520B7E = {
 						TestTargetID = F9C404A51902A7DD00520B7E;
 					};
@@ -250,9 +317,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C404E01902B18400520B7E /* CEEstoque.m in Sources */,
 				F9C404BA1902A7DD00520B7E /* CEAppDelegate.m in Sources */,
+				F9E376A61909374C00E7EC42 /* CECama.m in Sources */,
 				F9C404B61902A7DD00520B7E /* main.m in Sources */,
+				F9E7E8E519069D15005B47EE /* CEEstante.m in Sources */,
+				F949BE35190A831200CC5748 /* CEEstanteViewController.m in Sources */,
+				F949BE38190A85C300CC5748 /* CECamaViewController.m in Sources */,
+				F9E7E8DC190698FA005B47EE /* CEProduto.m in Sources */,
+				F9E376AC1909562200E7EC42 /* CECadeiraViewController.m in Sources */,
 				F9C404C01902A7DD00520B7E /* CEViewController.m in Sources */,
+				F949BE3B190A882600CC5748 /* CEEstoqueViewController.m in Sources */,
+				F9E376A91909466B00E7EC42 /* CEMainViewController.m in Sources */,
+				F9C404E31902C1E500520B7E /* CECadeira.m in Sources */,
+				F949BE32190A7ED200CC5748 /* CEMesaViewController.m in Sources */,
+				F9E7E8D3190680DB005B47EE /* CEMesa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +459,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Controle Estoque/Controle Estoque-Prefix.pch";
 				INFOPLIST_FILE = "Controle Estoque/Controle Estoque-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,7 +474,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Controle Estoque/Controle Estoque-Prefix.pch";
 				INFOPLIST_FILE = "Controle Estoque/Controle Estoque-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +540,7 @@
 				F9C404DA1902A7DD00520B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9C404DB1902A7DD00520B7E /* Build configuration list for PBXNativeTarget "Controle EstoqueTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +549,7 @@
 				F9C404DD1902A7DD00520B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
